@@ -9,5 +9,4 @@ public interface NVHeadRepository extends JpaRepository<NVHead, Integer> {
 
     NVHead findNVHeadByDescription(String description);
     NVHead findNVHeadByCumId(Integer cumId);
-
 }

@@ -36,6 +36,5 @@ public class NVCumDue {
         this.dueId=dueId;
         this.dueDescription=dueDescription;
         this.owner=owner;
-
     }
 }
