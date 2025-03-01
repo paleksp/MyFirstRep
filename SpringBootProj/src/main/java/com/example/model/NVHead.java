@@ -21,7 +21,7 @@ import java.util.List;
 public class NVHead  {
     @Id
     @Column(name = "cum_id", nullable = false)
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY) //
     private Integer cumId;
 
     @Column(name = "description", length = Integer.MAX_VALUE)
