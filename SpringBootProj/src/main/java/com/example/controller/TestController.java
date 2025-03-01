@@ -24,16 +24,6 @@ public class TestController {
         return "hello, " + name;
     }
 
-
-//    @GetMapping("/headData")
-//    public String HeadData(@RequestParam String description) {
-//        NVHead nvHead = headService.getHead(description);
-//        if (nvHead == null) {
-//            return "No data found";
-//        }
-//        return nvHead.toString();
-//    }
-
     @GetMapping("/newEntry")
     public NVHead newEntry() {
 
