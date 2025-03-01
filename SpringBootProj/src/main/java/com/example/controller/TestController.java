@@ -23,7 +23,7 @@ public class TestController {
     public String hello(@RequestParam String name) {
         return "hello, " + name;
     }
-
+    // Новая запись
     @GetMapping("/newEntry")
     public NVHead newEntry() {
 
