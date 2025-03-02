@@ -24,7 +24,7 @@ public class TestController {
         return "hello, " + name;
     }
 
-    // Комментарий
+    // Комментарий новая запись
     @GetMapping("/newEntry")
     public NVHead newEntry() {
 
